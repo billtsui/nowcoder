@@ -1,10 +1,15 @@
-/*
- * 这题测试用例有点意思。IEEE754保存小数的时候，例如0.845实际上是近似保存为0.8449999999999。保留2位小数在做四舍五入的时候会变成0.84
+/**
+ * @nc app=nowcoder id=58b6a69b4bf943b49d2cd3c15770b9fd topic=290 question=274662 lang=C
+ * 2025-09-26 16:42:32
+ * https://www.nowcoder.com/practice/58b6a69b4bf943b49d2cd3c15770b9fd?tpId=290&tqId=274662
+ * [BC12] 学生基本信息输入输出
  */
-#include <math.h>
+
+/** @nc code=start */
+
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int studentNo = 0;
     double score1, score2, score3 = 0.0;
     scanf("%d;%lf,%lf,%lf", &studentNo, &score1, &score2, &score3);
@@ -12,3 +17,5 @@ int main(void) {
            round(score2 * 100) / 100, round(score3 * 100) / 100);
     return 0;
 }
+
+/** @nc code=end */

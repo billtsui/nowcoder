@@ -1,9 +1,18 @@
+/**
+ * @nc app=nowcoder id=11a5040fa894430f9d25fda1be37ddc8 topic=290 question=2367251 lang=C
+ * 2025-09-26 16:40:34
+ * https://www.nowcoder.com/practice/11a5040fa894430f9d25fda1be37ddc8?tpId=290&tqId=2367251
+ * [BC8] 牛牛的字符菱形
+ */
+
+/** @nc code=start */
+
 #include <stdio.h>
 
-int main(void) {
-    char readChar = 'a';
+int main() {
+   char readChar = 'a';
     scanf("%c", &readChar);
-    int row = 13, column = 13;
+    int row = 5, column = 5;
     int charNum = 1;
     for (int i = 0; i < row; i++) {
         // printf("charNum:%d ", charNum);
@@ -27,3 +36,5 @@ int main(void) {
     }
     return 0;
 }
+
+/** @nc code=end */
