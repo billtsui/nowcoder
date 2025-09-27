@@ -6,4 +6,4 @@ set(PATH "./src/编程初学者入门训练/")
 set(FILENAME "BC1.HelloNowcoder.c" CACHE STRING "FILENAME")
 
 set(EXECUTABLE_OUTPUT_PATH ..)
-add_executable(CPL2024 ${PATH}${FILENAME})
+add_executable(nowcoder ${PATH}${FILENAME})
