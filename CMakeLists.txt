@@ -7,3 +7,5 @@ set(FILENAME "BC1.HelloNowcoder.c" CACHE STRING "FILENAME")
 
 set(EXECUTABLE_OUTPUT_PATH ..)
 add_executable(nowcoder ${PATH}${FILENAME})
+target_link_libraries(nowcoder m)
+
